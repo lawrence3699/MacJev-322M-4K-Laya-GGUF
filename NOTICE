@@ -1,0 +1,25 @@
+MacJev-322M-4K-Laya-GGUF
+Independent experimental model release maintained by chaoliangUNSW.
+GGUF conversion of https://huggingface.co/chaoliangUNSW/MacJev-322M-4K-Laya
+(FP32 source weights SHA-256 a1c8cb93485dc32a499cd221dfc9a534dd4e309f5c3ab908ea13d0190a203750).
+
+This work includes portions derived from Laya:
+https://github.com/NandhaKishorM/laya
+Upstream source commit: 573e5b62696ba441230cd6be71d593331b5d23af
+Model: convaiinnovations/laya, multilingual subfolder
+Model revision: 1c5edc17a7acd8701df6fc341c0d179f1c62c982
+Laya is licensed under Apache License 2.0; see LICENSE.
+
+The backbone originates from jhu-clsp/mmBERT-base, licensed under MIT;
+see MMBERT_LICENSE for the upstream notice.
+
+The encoder GGUF was produced with the unmodified llama.cpp converter and
+tools (https://github.com/ggml-org/llama.cpp, MIT) at build b10964. The
+packaging follows community GGUF releases of Laya: encoder GGUF plus a
+separate decision-head file and a small runtime.
+
+Relative to the FP32 release: encoder weights stored as float16 in GGUF;
+decision head unchanged (float32). No retraining or recalibration.
+Measured agreement with the FP32 model is recorded in validation.json.
+JEV is comparison/category context only; no JEV weights are included.
+This project is not affiliated with or endorsed by JEV or the Laya authors.

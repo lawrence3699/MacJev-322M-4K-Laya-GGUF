@@ -1,0 +1,32 @@
+{
+  "name": "MacJev-322M-4K-Laya-GGUF",
+  "format": "gguf-encoder+safetensors-head",
+  "source_repository": "chaoliangUNSW/MacJev-322M-4K-Laya",
+  "source_weights_sha256": "a1c8cb93485dc32a499cd221dfc9a534dd4e309f5c3ab908ea13d0190a203750",
+  "parameters": 321908995,
+  "max_len": 4096,
+  "head_max_len": 1024,
+  "temperatures": {
+    "choice": 0.9324428071100596,
+    "score": 1.2489061269486248,
+    "noul": 1.4570162843414909
+  },
+  "encoder_gguf": "MacJev-322M-4K-Laya-F16.gguf",
+  "approximate": true,
+  "files_sha256": {
+    "LICENSE": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "MMBERT_LICENSE": "d10ba006ae079610d2a620d16d93a63fe46a4aa8ea1bef6874f0d4b1640065a6",
+    "MacJev-322M-4K-Laya-F16.gguf": "ed1e0d6d1d47adef461ddc0ad413f390934aba1ce4e7ad8d7ef8489c317f488d",
+    "MacJev-322M-4K-Laya-head.safetensors": "847d8ce6be7d6645ae6d9b5e7d74a9ebc4e77251e7e84aa20142351e4502d3c4",
+    "NOTICE": "45b77f4b445e572dc7dc0fef6e4fd00831ac04df3e01a40f3c55a1d495b7c4c1",
+    "README.md": "928ec7198b8f09fe297a37b6bc86d090c3b7e06d3d41f6cf2317203f2300559a",
+    "assets/macjev_vs_laya_multilingual.png": "93c9ad83c91ff6c5952f57861f76347514f6b8cc7207b05379be0f97d76e7af7",
+    "macjev_gguf.py": "b614d06b6f0b1dc3d51ee43fd7a5fd4156f302eea1e1adfc84772963c71e922e",
+    "macjev_inputs.py": "f060ad82951ceb5335d8e2e73fc6ea190e8699f87ddab09e85bb3becf1d995f2",
+    "requirements.txt": "3e7e1031a6cd92e42dd807401aeba1fb9b58364d2c547b9094f285441a961cb7",
+    "rl_agent_config.json": "b51ec5e0626a2d29c38a91c9d1dc642946e73cbd48c41e24c3c9390b32471803",
+    "tokenizer/tokenizer.json": "609d8f4c067cd3950f88594c5a802616cea245823836ef5848ee4fc40aab5b6f",
+    "tokenizer/tokenizer_config.json": "6c6b2d8e3c84ce0e671c129cd6b374b235d6f9863042a5836358d00a89bbb5a1",
+    "validation.json": "87fa96a2a2352a2a795fd5274badea7d39e02f8bc2affd106f4fbda6aee2c46f"
+  }
+}

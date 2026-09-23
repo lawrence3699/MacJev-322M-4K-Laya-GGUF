@@ -1,0 +1,19 @@
+{
+  "encoder": "jhu-clsp/mmBERT-base",
+  "head_layers": 2,
+  "max_len": 4096,
+  "head_max_len": 1024,
+  "max_prefixes": 6,
+  "act_costs": {
+    "escalate": 0.5
+  },
+  "cost_wrong_act": 3.0,
+  "amp_dtype": "fp32",
+  "model_name": "MacJev-322M-4K-Laya",
+  "temperature": [
+    0.9324428071100596,
+    1.2489061269486248,
+    1.4570162843414909
+  ],
+  "temperature_by_options": {}
+}
